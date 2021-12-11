@@ -1,0 +1,208 @@
+.accordion {
+    background-color: #eee;
+    color: darkolivegreen;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  iframe.mid{
+    margin: 20px 330px 0px ;
+}
+div.vidcol{
+    margin: 40px;
+}
+.profilepicforex{
+	width:70px;
+	height: 70px;
+}
+.profilepicforex_g{
+	width:70px;
+	height: 70px;
+    margin:10px 565px;
+}
+.profiepicex{
+   columns: 3;
+   position: relative;
+   padding-left: 490px;
+}
+div.bookclub{
+    margin: 10px 120px;
+}
+div.bookclub2{
+  margin: 10px 300px;}
+
+
+
+#myImg1{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg4{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg7 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+#myImg8 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:100%;max-width:300px
+}
+
+#myImg1:hover {opacity: 0.7;}
+#myImg2:hover{opacity: 0.7;}
+#myImg3:hover{opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+#myImg5:hover{opacity: 0.7;}
+#myImg6:hover{opacity: 0.7;}
+#myImg7:hover{opacity: 0.7;}
+#myImg8:hover{opacity: 0.7;}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 50px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Script {
+  background-color: rgb(3, 129, 14);
+  border: 0px;
+  color: white;
+  padding: 12px 30px;
+  margin:0px 0px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.Script a:link {
+  color:inherit;
+}
+
+.Script:hover {
+  transition: 0.5s;
+  background-color: rgb(7, 94, 255);
+  color: white;
+}
+.Scriptdiv{
+  margin: 0px 400px;
+}
+
+a.book{
+  color: blue;
+  text-decoration: underline;
+}
+.book:hover{
+  transition: 0.3s;
+  background-color: blue;
+  color: white;
+}

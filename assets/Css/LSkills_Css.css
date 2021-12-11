@@ -1,0 +1,123 @@
+
+h1.skillstitle:hover{
+  animation: glow2 0.2s ease-in-out infinite alternate;
+}
+@keyframes glow2 {
+	from {
+	  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #0f00e6, 0 0 8px #0f00e6, 0 0 10px #0f00e6, 0 0 14px #0f00e6, 0 0 17px #0f00e6;
+	}
+	
+	to {
+	  text-shadow: 0 0 2px #fff, 0 0 3px #2489fd, 0 0 5px #4d6eff, 0 0 10px #4d5fff, 0 0 16px #8b4dff, 0 0 17px #a04dff, 0 0 18px #d02ff8;
+	}
+  }
+
+
+h2{
+    font-family: "微軟正黑體";
+    text-align: center;
+	font-size:19px;
+    color: black;
+
+}
+.langs{
+    columns:5;
+    width:60%;
+    line-height:5px;
+    max-height:30%;
+    position:relative;
+	margin:40px 0px 30px 400px;
+    background-color: rgb(122, 163, 190);
+
+    border-radius: 40px;
+    padding:20px 20px 20px 20px;
+    border: 5px rgb(0, 0, 0) double ;
+}
+
+.loader1 {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: fill1 ease-in-out 3s;
+    transform: rotate(405deg);
+    -webkit-column-break-after: always;
+  }
+  .loaderwards{
+    border-radius: 50%;
+    border: 12px solid #fdf900;
+    width: 10px;
+    height: 10px;
+    
+  }
+  
+  @keyframes fill1 {
+  0% {transform: rotate(45deg);}
+  100%{transform: rotate(405deg);}
+  }
+
+  .loader2 {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: fill2 ease-in-out 3s;
+    transform: rotate(353deg);
+    -webkit-column-break-after: always;
+  }
+  
+  @keyframes fill2 {
+  0% {transform: rotate(45deg);}
+  100%{transform: rotate(353deg);}
+  }
+  .loader3 {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: fill3 ease-in-out 3s;
+    transform: rotate(225deg);
+    -webkit-column-break-after: always;
+}
+  
+  @keyframes fill3 {
+  0% {transform: rotate(45deg);}
+  100%{transform: rotate(225deg);}
+  }
+  .loader4 {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: fill4 ease-in-out 3s;
+    transform: rotate(180deg);
+    -webkit-column-break-after: always;
+  }
+  
+  @keyframes fill4 {
+  0% {transform: rotate(45deg);}
+  100%{transform: rotate(180deg);}
+  }
+  .loader5 {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: fill5 ease-in-out 3s;
+    transform: rotate(153deg);
+    -webkit-column-break-after: always;
+  }
+  
+  @keyframes fill5 {
+  0% {transform: rotate(45deg);}
+  100%{transform: rotate(153deg);}
+  }
+
+ .inc {
+    line-height: 130px;
+    text-align: center;
+    margin-top: 25px; 
+    margin-left: 45px;
+    position: absolute;
+    font-size: 20px;  }
+  

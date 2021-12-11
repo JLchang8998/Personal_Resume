@@ -1,0 +1,73 @@
+* {box-sizing: border-box}
+h1.skillstitle{
+    font-family: "Arial";
+    text-align: center;
+	font-size:25px;
+    color: black;
+    column-span: all;
+    padding: 0px 0px 18px 0px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+.myskills{
+    font-family: "Times New Roman";
+	color: black;
+    font-weight: bold;
+    width:60%;
+    line-height:9px;
+    max-height:30%;
+	font-size:15px;
+    position:relative;
+	margin:10px 0px 0px 450px;
+    background-color: rgb(122, 163, 190);
+    border-radius: 40px;
+    padding:20px;
+    border: 5px rgb(0, 0, 0) double ;
+}
+.containersk {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 100px;
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+}
+  
+.html {
+  width: 90%; 
+   background: linear-gradient(to left,  red, orange);
+   border-radius: 100px;
+  
+}
+
+.css {
+    width: 80%; 
+    background: linear-gradient(to left,  orange, yellow);  
+    border-radius: 100px;
+}
+.Csharp {
+    width: 75%; 
+    background: linear-gradient(to left,  red, orange );  
+    border-radius: 100px;
+}
+  
+.Java {
+    width: 70%; 
+    background: linear-gradient(to left,  orange, yellow );  
+    border-radius: 100px;
+}
+  
+.javascript {
+    width: 60%; 
+    background: linear-gradient(to left,  red, orange);  
+    border-radius: 100px;
+}
+
+
+
+
+ 

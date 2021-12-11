@@ -1,0 +1,12 @@
+.certificate{
+    margin:0px 0px 0px 180px;
+}
+.Certifications{
+    height: 10%;
+    width: 10%;
+}
+.Certifications:hover{
+z-index: 999;
+    height: 25%;
+    width: 25%;
+}
